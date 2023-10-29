@@ -1,17 +1,20 @@
+import LinkCard from "./components/LinkCard";
 import profile from "/avatar.png";
+import "remixicon/fonts/remixicon.css";
 
 function App() {
   return (
-    <section className="bg-black min-h-[100vh]">
-      <div className="w-[500px] bg-red-100 mx-auto">
+    <section className="bg-black">
+      <div className="w-[500px] bg-white mx-auto min-h-[120vh]">
         <div className="p-20">
-          <div className="bg-slate-600 h-44 rounded-2xl relative">
-            <div className="bg-slate-600 pl-4 pt-4 rounded-2xl bg-[#00000000]">
-              <div className="bg-red-500 absolute rounded-2xl px-4 py-2">
-                CONTENT
+          <div className="relative bg-slate-600 h-44 rounded-2xl">
+            <div className="relative top-0 left-0 w-[118px] h-[48px] bg-transparent rounded-br-2xl inverted-border">
+              <div className="absolute flex items-center justify-center gap-2 px-3 py-1 bg-red-500 rounded-xl top-2">
+                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                <h4 className="font-normal text-gray-100 text-l">Hire me.</h4>
               </div>
             </div>
-            <div className="absolute bottom-0 right-0 mr-4 mb-4 rounded-xl bg-red-500 p-2">
+            <div className="absolute bottom-0 right-0 p-2 mb-2 mr-2 bg-red-500 rounded-xl">
               INI
             </div>
           </div>
@@ -23,9 +26,10 @@ function App() {
             className="rounded-full w-[100px] h-[100px]"
           />
         </div>
-        <div className="">
-          <div className="bg-blue-300 mx-20 px-10 py-5">Content Here</div>
+        <div className="mb-10 -mt-[7rem] text-center font-bold text-xl">
+          <h1>Aufa Ramadhan</h1>
         </div>
+        <LinkCard />
       </div>
     </section>
   );
