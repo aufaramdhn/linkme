@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .inverted-border {
-  background: white;
+  background: rgb(241 245 249);
 }
 
 .inverted-border:before {
@@ -15,7 +15,7 @@
   width: 25px;
   left: 0;
   border-top-left-radius: 16px;
-  box-shadow: 0 -25px 0 0 white;
+  box-shadow: 0 -25px 0 0 rgb(241 245 249);
   z-index: 0;
 }
 
@@ -28,6 +28,6 @@
   width: 25px;
   right: -25px;
   border-top-left-radius: 16px;
-  box-shadow: 0 -25px 0 0 white;
+  box-shadow: 0 -25px 0 0 rgb(241 245 249);
   z-index: 0;
 }

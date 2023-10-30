@@ -1,11 +1,13 @@
 [
   {
     "logo": "ri-pass-valid-line",
-    "title": "Portfolio"
+    "title": "Portfolio",
+    "link": "https://aufaramdhn.github.io/portfolio/"
   },
   {
     "logo": "ri-instagram-line",
-    "title": "Instagram"
+    "title": "Instagram",
+    "link": "https://instagram/aufaramdhn"
   },
   {
     "logo": "ri-youtube-line",
